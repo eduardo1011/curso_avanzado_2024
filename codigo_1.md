@@ -41,6 +41,9 @@ display(Image('descargas/bio.jpg', width=300, unconfined=True))
 |`reversed()`|Devuelve el reverso de una lista|
 |`max()`|Devuelve el valor máximo de una lista, arreglo o Dataframe|
 |`round()`|Redondea un número de punto flotante|
+
+
+#### Al definir variables tratar de no usar algún nombre de las funciones integradas, porque si después se desea usar la función original esto genera un error porque la función ya no existe
 ```
 
 
