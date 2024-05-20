@@ -1,7 +1,37 @@
 ## Code
 
 
+```
+## Funciones integradas
 
+|Función|Descripción|
+|---|---|
+|`set()`|Devuelve un conjunto|
+|`dict()`|Devuelve un diccionario|
+|`help()`|Da información sobre módulos|
+|`min()`|Devuelve el valor mínimo de una lista, arreglo o Dataframe|
+|`dir()`|Devuelve las variables definidas|
+|`enumerate()`|Enumera una lista empezando por cero|
+|`input()`|Función interactiva para ingresar valores|
+|`int()`|Devuelve núemros enteros|
+|`str()`|Devuelve un string o cadena de caracteres|
+|`sum()`|Suma los valores de una lista o arreglo|
+|`pow()`|Devuelve un valor elevado a la potencia X|
+|`float()`|Devuelve un número de punto flotante|
+|`print()`|Imprimir una variable|
+|`tuple()`|Devuelve una tupla (una lista inmutable)|
+|`len()`|Devuelve la longitud de un objeto|
+|`type()`|Devuelve el tipo del objeto|
+|`list()`|Devuelve una lista|
+|`range()`|Devuelve un rango de números|
+|`zip()`|Vuelve iterables dos elementos iterables|
+|`reversed()`|Devuelve el reverso de una lista|
+|`max()`|Devuelve el valor máximo de una lista, arreglo o Dataframe|
+|`round()`|Redondea un número de punto flotante|
+```
+
+
+#----------------------------------------------------------------------------------------
 
 # <font color = red>Ejercicio:</font>
 * ### 1. En seguida se definen algunas variables con varios objetos.
