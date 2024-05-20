@@ -2,6 +2,14 @@
 
 
 ```
+### [python](https://www.python.org/)  
+<img style="float: left;" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Saccharomyces_cerevisiae_SEM.jpg" width = 30%> <br>
+```
+
+
+#########################
+
+```
 ## Funciones integradas
 
 |Función|Descripción|
