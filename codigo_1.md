@@ -69,3 +69,21 @@ variable9 = int(pow(5.2, 4) - 0.1616000000001)
 variable10 = 'https://www.genome.jp/dbget-bin/www_bget?sce:YLR113W'
 variable11 = (1.1,2.1,3.0,4.0,5.2,6)
 ```
+
+
+
+```
+# Comparaciones
+|Operation|Meaning|
+|---|---|
+|`<`|strictly less than|
+|`<=`|less than or equal|
+|`>`|strictly greater than|
+|`>=`|greater than or equal|
+|`==`|equal|
+|`!=`|not equal|
+|`is`|object identity|
+|`is not`|negated object identity|
+
+#### Los resultados boleanos siempre devuelven `False` o `True`
+```
