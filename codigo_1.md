@@ -6,6 +6,11 @@
 <img style="float: left;" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Saccharomyces_cerevisiae_SEM.jpg" width = 30%> <br>
 ```
 
+```
+from IPython.core.display import Image, display
+display(Image('descargas/bio.jpg', width=300, unconfined=True))
+```
+
 
 #########################
 
