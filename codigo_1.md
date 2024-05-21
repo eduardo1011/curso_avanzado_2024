@@ -49,12 +49,14 @@ display(Image('descargas/bio.jpg', width=300, unconfined=True))
 
 #----------------------------------------------------------------------------------------
 
+```
 # <font color = red>Ejercicio:</font>
 * ### 1. En seguida se definen algunas variables con varios objetos.
 * ### 2. Usando las funciones `print()` y `type()`, imprime e identifica qué tipo de objeto contienen las variables, la respuesta escríbela como un comentario 
 * ### 3. Cuál es la longitud de la secuencia de nucleótidos
 * ### 4. Cúal es el resultado de sumar la variable6 con la variable11
 * ### 5. A qué organismo lleva el enlace de lavariable10, cuántos aminoácidos tiene la proteína que muestra y cuántos nucleótidos.
+```
 
 ```
 variable1 = 3.141592653589793
