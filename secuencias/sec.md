@@ -1,1 +1,19 @@
 # secuencias
+
+```
+# esta secuencia no tiene saltos de línea
+secuencia = 'ccaggagaaggtctggggaaaataattcagagattcccacagcaggactgggatgacacg'\
+'cctttcccacagggaattgaattgttttgtcaacctggtggatggcacctgtccagagag'\
+'cggaaacagccaacattctttgtggtggtcctaacagatattgactcagatcgacattac'\
+'tgctcatgcntctaactttctatgaggcagagatcaatctccagggaacgaagaaggaagag'\
+'attgaaggtgaagaagtatctggtttaattcaaccagcagaagtatttgcccccaaaagc'\
+'ctggtgttggtatccagattagactatccagaaatctttagggcctgcctgggtttgatc'\
+'tatactgtgtatgtggacagcatgagtgtctccttggaaagtctcatcgcaaatctttgt'\
+'gcttgccttgtcccagctgctggagggtctcangaagctattttccttgggtgcaggagac'\
+'agacaactgatccagacacctttgcatgacagccttcctgtcacaggcactagtgtggct'\
+'cttttatttcagcaattaggcattcaaaacgtcctcaacctcttctgcgcagtccttaca'\
+'gaaaacaaggttctcttccactctgcaagcttccagagactcagtgatgcctgtagagcc'\
+'ctggaatctctaatgtttcctctgaagtacagttacccgtatatccccattcttccggct'\
+'cagctcctageaagttttgagttctccaeactccgttcattattggcgtacactccatcttt'\
+'aaaactgatgtccatgagcttttagatgtaatcatagcagatttggatggaggcactatt'
+```
