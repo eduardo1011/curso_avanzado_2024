@@ -1,4 +1,18 @@
-# code 
+# code
+
+## Index Jaccard
+
+```
+def jaccard_similarity(set1, set2):
+    # intersection of two sets
+    intersection = len(set1 & set2)
+    # Unions of two sets
+    union = len(set1 | set2)
+    return intersection / union
+```
+
+
+
 
 
 ## Conocer los elementos de los conjuntos
