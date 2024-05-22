@@ -1,6 +1,39 @@
 # code 
 
 
+## Conocer los elementos de los conjuntos
+
+```
+def generate_logics(n_sets):
+    """Generate intersection identifiers in binary (0010 etc)"""
+    for i in range(1, 2**n_sets):
+        yield bin(i)[2:].zfill(n_sets)
+def sets(data_sets, fmt="{size}"):
+    """Generate petal descriptions for venn diagram based on set sizes"""
+    datasets = list(data_sets.values())
+    n_sets = len(datasets)
+    dataset_union = set.union(*datasets)
+    universe_size = len(dataset_union)
+    
+    bin_term = {}
+    for j in [i for i in generate_logics(n_sets)]:
+        rr = []
+        for e, z in enumerate(j):
+            if z == '1':
+                rr.append(list(data_sets.keys())[e])
+        bin_term[j] = rr
+    
+    petal_labels = {}
+    for logic in bin_term:
+        included_sets = [datasets[i] for i in range(n_sets) if logic[i] == "1"]
+        excluded_sets = [datasets[i] for i in range(n_sets) if logic[i] == "0"]
+        petal_set = ((dataset_union & set.intersection(*included_sets)) - set.union(set(), *excluded_sets))
+        petal_labels[logic] = [int(fmt.format(logic=logic, size=len(petal_set), percentage=(100*len(petal_set)/universe_size))), petal_set, bin_term[logic]]
+    return petal_labels
+```
+
+> --------------------------------------------------------------
+
 ## interactions
 ```
 RES = sets(conjuntos)
