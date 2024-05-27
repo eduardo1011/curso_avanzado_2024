@@ -3,6 +3,51 @@
 # widget grafico editable
 
 ```
+LEFT = widgets.IntSlider(
+    value=10,
+    min=1,
+    max=100,
+    step=1,
+    description='Trimm left:',
+    disabled=False,
+    continuous_update=False,
+    orientation='horizontal',
+    readout=True,
+    readout_format='d', layout=Layout(width = '500px', height='30px'))
+LEFT.style.handle_color = 'red'
+RIGHT = widgets.IntSlider(
+    value=10,
+    min=1,
+    max=100,
+    step=1,
+    description='Trimm right:',
+    disabled=False,
+    continuous_update=False,
+    orientation='horizontal',
+    readout=True,
+    readout_format='d', layout=Layout(width = '500px',
+                                      height='30px'))
+RIGHT.style.handle_color = 'red'
+TRIMM = widgets.ToggleButton(
+    value=False,
+    description='Trimm',
+    disabled=False,
+    button_style='', # 'success', 'info', 'warning', 'danger' or ''
+    tooltip='Description',
+    icon='check' # (FontAwesome names without the `fa-` prefix)
+)
+SALVAR = widgets.ToggleButton(
+    value=False,
+    description='Save',
+    disabled=False,
+    button_style='', # 'success', 'info', 'warning', 'danger' or ''
+    tooltip='Description',
+    icon='check' # (FontAwesome names without the `fa-` prefix)
+)
+secF = Trace('descargas/cepa2-f-tubF.ab1')
+
+#
+
 def f(LEFT, RIGHT, TRIMM, SALVAR):
     
     fig = plt.figure(figsize =(10, 3))
